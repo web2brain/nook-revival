@@ -1,5 +1,5 @@
-# nook-revival
-Reviving my 6-year-old Nook Classic: collecting materials from the now-dead NookDevs wiki and such
+# nook Revival
+Reviving my Nook Classic from 2009: collecting materials from the now-dead NookDevs wiki and other sources.
 
 ![nook with new launcher](n.jpg)
 
