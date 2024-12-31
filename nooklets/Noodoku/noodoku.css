@@ -1,0 +1,38 @@
+table {
+    border-width: 0px;
+    border-spacing: 0px;
+    border-style: none;
+}
+
+.right {
+    float: right;
+    margin-right: 37px;
+}
+
+.left {
+    float: left;
+    padding-left: 10px;
+}
+
+.checkbutton {
+    float: right;
+    margin-right: 45px;
+    margin-top: 45px;
+}
+
+td {
+    width: 46px;
+    height: 46px;
+    cellpadding: 0px;
+    border-width: 0px;
+    border-style: none;
+}
+
+.full {
+    width: 100%;
+}
+
+.skinny {
+    padding-left: 5px;
+    padding-right: 5px;
+}

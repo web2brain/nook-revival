@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>foo</title>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script src="nui.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="nui.css" type="text/css"/>
+    <link rel="stylesheet" href="noodoku.css" type="text/css"/>
+    <script type="text/javascript">
+
+      $(function() {
+       var eink = nook.getEink();
+       for (var i=1; i<=9; i++) {
+         $("#b"+i).click(function(v) {
+           return function() {
+             eink.loadUrl("javascript:setCurrent("+v+")");
+           }}(i));
+       }
+
+       $("#up").click(function() {
+         eink.loadUrl("javascript:move(-1,0)");
+       });
+       $("#down").click(function() {
+         eink.loadUrl("javascript:move(1,0)");
+       });
+       $("#left").click(function() {
+         eink.loadUrl("javascript:move(0,-1)");
+       });
+       $("#right").click(function() {
+         eink.loadUrl("javascript:move(0,1)");
+       });
+       $("#newgame0").click(function() {
+         eink.loadUrl("javascript:newgame(0)");
+       });
+       $("#newgame1").click(function() {
+         eink.loadUrl("javascript:newgame(1)");
+       });
+       $("#newgame2").click(function() {
+         eink.loadUrl("javascript:newgame(2)");
+       });
+       $("#checkgame").click(function() {
+         eink.loadUrl("javascript:check()");
+       });
+
+      });
+
+    </script>
+  </head>
+  <body>
+    <div class="panel">
+      <table class="left">
+        <tr>
+          <td><button class="whitebutton" id="b1">1</button></td>
+          <td><button class="whitebutton" id="b2">2</button></td>
+          <td><button class="whitebutton" id="b3">3</button></td>
+        </tr>
+        <tr>
+          <td><button class="whitebutton" id="b4">4</button></td>
+          <td><button class="whitebutton" id="b5">5</button></td>
+          <td><button class="whitebutton" id="b6">6</button></td>
+        </tr>
+        <tr>
+          <td><button class="whitebutton" id="b7">7</button></td>
+          <td><button class="whitebutton" id="b8">8</button></td>
+          <td><button class="whitebutton" id="b9">9</button></td>
+        </tr>
+      </table>
+      <table class="right">
+        <tr>
+          <td/>
+          <td><button class="whitebutton" id="up">&#8593;</button></td>
+          <td/>
+        </tr>
+        <tr>
+          <td><button class="whitebutton skinny" id="left">&#8592;</button></td>
+          <td/>
+          <td><button class="whitebutton skinny" id="right">&#8594;</button></td>
+        </tr>
+        <tr>
+          <td/>
+          <td><button class="whitebutton" id="down">&#8595;</button></td>
+          <td/>
+        </tr>
+      </table>
+    </div>
+    <div class="panel">
+      <table class="left">
+        <tr>
+          <td class="full"><button id="newgame0" class="whitebutton full">New - easy</button></td>
+        </tr>
+        <tr>
+          <td class="full"><button id="newgame1" class="whitebutton full">New - medium</button></td>
+        </tr>
+        <tr>
+          <td class="full"><button id="newgame2" class="whitebutton full">New - hard</button></td>
+        </tr>
+      </table>
+      <button id="checkgame" class="whitebutton checkbutton">Check</button>
+    </div>
+  </body>
+</html>

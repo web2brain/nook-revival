@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <script src="jquery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+var canvas;
+var context;
+var maxRecursion = 6;
+var extraBranches = 1;
+var degrees = 30;
+
+
+function drawTree(ctx, recursion) {
+	if(recursion == maxRecursion)  return;
+	if(recursion == 0) var branches = 1;
+	else var branches = (recursion * extraBranches) + 1;
+	
+	for(var i = 0; i < branches; i++) {	
+		ctx.save();
+		// Work out the total number of degrees between all of the branches at this depth,
+		// and rotate left half that amount, so that we don't just grow to the right
+		var degreesBetween = (branches - 1) * degrees;
+                degreesBetween += (Math.floor(Math.random()*10) - 5);
+		ctx.rotate(-degreesBetween / 2 * (Math.PI / 180));
+		
+		// Go from a thick 'branch' to thin 'leaves'
+		ctx.lineWidth = maxRecursion - recursion;
+		// Go from brown to green
+		// ctx.strokeStyle = 'rgb(' +  (125 - (recursion) * 25) + ', 80, 25)';
+		
+		// Draw our line
+		ctx.beginPath();
+		ctx.lineTo(0, 0);
+                var c1 = Math.floor(Math.random()*80);
+                var c2 = Math.floor(Math.random()*80);
+                var c3 = Math.floor(Math.random()*80);
+                var c4 = Math.floor(Math.random()*80);
+                ctx.bezierCurveTo(c1-40, -c2, c3-40, -c4, 0, -150);
+		ctx.stroke();	
+		
+		// Translate, scale, and then call ourselves recursively
+		ctx.translate(0,-146);
+		ctx.scale(0.75, 0.75);
+		drawTree(ctx, recursion + 1);
+		
+		ctx.restore();
+		ctx.rotate(degrees * (Math.PI / 180));
+	}		
+}
+
+function newTree() {
+ canvas = document.getElementById("eink");
+ context = canvas.getContext("2d");
+ context.save();
+ context.fillStyle = '#fff';
+ context.fillRect(0,0,600,800);
+ context.fillstyle = '#000';
+ context.translate(300,570);
+ drawTree(context, 0);
+ context.restore();
+}
+
+$(function() {
+  newTree();
+});
+
+    </script>
+    <title>Canvas</title>
+  </head>
+  <body>
+    <canvas id="eink" width="600" height="700"></canvas>
+  </body>
+</html>
