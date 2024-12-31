@@ -31,7 +31,7 @@ How to
 Step 0: rooting the Nook
 ------------------------
 
-See README.md in the rooting directory. This procedure may take quite a few tries, but in the end it worked for me.
+See [README.md](rooting/README.md) in the rooting directory. This procedure may take quite a few tries, but in the end it worked for me.
 The needed files (`adbd.html` and `ratc.bin`) are included in this repo under `rooting/`.
 
 Apps
