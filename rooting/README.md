@@ -1,6 +1,6 @@
 First, you have to root your nook. This used to be simple (check the softroot instructions), but got more and more difficult with new nook revisions.
 This rooting guide is for a nook with firmware 1.5 and a post 10030 serial number. For serial numbers starting below that, these instrutions do work, but it might be easier to follow the softroot instructions.
-The following instructions are copied from [[https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation]] (an improved and cleand up version of [[http://nookdevs.com/Rooting_1.5_on_any_hardware]]) and ajusted for acessing `adbd.html` locally.
+The following instructions are copied from https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation (an improved and cleand up version of http://nookdevs.com/Rooting_1.5_on_any_hardware) and ajusted for acessing `adbd.html` locally.
 
 ***
 
@@ -60,4 +60,4 @@ If this succeeds, reboot your nook now because the exploit in the previous step 
 
 Sometimes, this exploit fails -- either the <tt>adb connect</tt> command will fail or the <tt>adb shell</tt> command will give a '$' prompt instead of a '#'. In the second case you can try starting over from the <tt>./ratc_bin</tt> step; in the first, the only choice is to start over from the beginning. In both of these cases I have found it necessary to do a hard reboot of the nook (hold down the power button for 4 seconds, until the e-ink screen goes blank to shutdown, then hold it down again to boot) since the exploit leaves the system in an unstable condition, especially if it fails.
 
-RageAgainstTheCage was made by [[http://c-skills.blogspot.com/2010/08/droid2.html c-skills]] and Android Exploid Crew, credit where due. The source can be found at: [[http://stealth.openwall.net/xSports/RageAgainstTheCage.tgz]]
+RageAgainstTheCage was made by http://c-skills.blogspot.com/2010/08/droid2.html c-skills and Android Exploid Crew, credit where due. The source can be found at: http://stealth.openwall.net/xSports/RageAgainstTheCage.tgz
