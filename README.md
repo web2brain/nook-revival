@@ -31,8 +31,8 @@ Rooting the Nook
 For all and especially newer nooks with serials starting with 1003 and above
 ----------------------------------------------------------------------------
 
-See README.md in the rooting directory. This procedure may take quite a few tries, but in the end it worked for me.
-The needed files (`adbd.html` and `ratc.bin`) are included in this repo under `rooting/`.
+See https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation. This procedure may take quite a few tries, but in the end it worked for me.
+The needed file (`ratc.bin`) is included in this repo under `rooting/`.
 
 Softroot for older Nooks with serials starting lower than 1003
 --------------------------------------------------------------
