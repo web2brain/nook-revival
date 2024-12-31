@@ -25,14 +25,29 @@ What are these things?
 
 As I have stuff in my head and nobody else uses this, I have been too lazy to document things properly. In the unexpected case that you do use this, please ask me to document whatever you need documented.
 
-How to
+Rooting the Nook
 ======
 
-Step 0: rooting the Nook
-------------------------
+For all and especially newer nooks with serials starting with 1003 and above
+----------------------------------------------------------------------------
 
 See https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation. This procedure may take quite a few tries, but in the end it worked for me.
 The needed file (`ratc.bin`) is included in this repo under `rooting/`.
+
+Softroot for older Nooks with serials starting lower than 1003
+--------------------------------------------------------------
+
+`softroot` contains the files required for the easy 1st Gen softroot method. Requires serial number beginning with a lower number than 1003. This includes the official 1.0.0 signed update from Barnes and Noble as well as the nookDevs.com (perfinion's) 2.5.1 (B&N:1.5.0) Softroot/ROM file. Also includes the instructions in PDF format from the nookDevs Wayback Machine archive.
+
+These files were originally procured from these URLs but both have been removed meanwhile. The hashes match the NookDevs website.
+
+Original 1.0.0 Firmware (step 1), directly from Barnes & Noble:
+http://images.barnesandnoble.com/Presources/download/Nook/signed_bravo_update.1.0.0.dat
+SHA1: 84287d73b70e98da6a6af9f362b31e96d4e6eea4
+
+NookDevs.com 2.5.1 Softroot/ROM (step 4):
+http://feise.com/~jfeise/Downloads/bravo_update-2.5.1.dat
+SHA1: 438d387126530e08de896bb4a4a25e2f2725f430
 
 Apps
 ====
