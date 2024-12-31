@@ -6,7 +6,7 @@ Reviving my 6-year-old Nook Classic: collecting materials from the now-dead Nook
 Thanks to
 =========
 
-NookDevs (no link, site is dead). Also, [The Wayback Machine](https://web.archive.org/web/) (as the NookDevs site is dead).
+NookDevs (no link, site is dead). Also, [The Wayback Machine](https://web.archive.org/web/) (as the NookDevs site is dead) and the archived Google Code site [nookapps](https://code.google.com/archive/p/nookapps/), especially for the documentation of the nooklets and Trook.
 
 What's in here
 ==============
@@ -90,6 +90,11 @@ Nooklets
 - Pluto
 
 To use them, copy them to the Nooklets folder in the root of the internal storage and install the nooklets APK.
+
+Documentation for creating your own nooklets are available here:
+* [Nooklets](documentation/Nooklets.md)
+* [NookletGuide](documentation/NookletGuide.md)
+* [NookletSpecification](documentation/NookletSpecification.md)
 
 Virus detected?
 ===============
