@@ -78,6 +78,19 @@ My customizations
 
 Just stick any of the subfolders into the root of your Nook to apply it.
 
+Nooklets
+=================
+
+`nooklets` contains some nooklets that were published by nookdevs. The provided nooklets are:
+
+- Bonsai
+- Hangman
+- Hello
+- Noodoku
+- Pluto
+
+To use them, copy them to the Nooklets folder in the root of the internal storage and install the nooklets APK.
+
 Virus detected?
 ===============
 
