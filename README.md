@@ -29,7 +29,7 @@ Rooting the Nook
 ======
 
 For all and especially newer nooks with serials starting with 1003 and above
-------------------------------------------------------------------
+----------------------------------------------------------------------------
 
 See https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation. This procedure may take quite a few tries, but in the end it worked for me.
 The needed file (`ratc.bin`) is included in this repo under `rooting/`.
