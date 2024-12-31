@@ -63,11 +63,6 @@ Apps
 - nookBrowser: an alternative web browser
 - nooklet: container for apps written in HTML+JS :-)
 - Music: stock old Android music app, with buttons moved to the touchscreen/arrow keys
-- aarddict: [Aard Dictionary](https://github.com/max-kammerer/aarddict_nook/downloads) integrated with Orion Viewer
-- ru.mynook.locale: ru/en locale switcher
-- [NomadReader](https://github.com/Nomad1/NomadReader): fb2/epub reader
-- net.runserver.fileBrowser: library app from the author of NomadReader
-- net.runserver.appLauncher: another home/launcher
 
 Also see https://web.archive.org/web/20140109090359/http://nookdevs.com/Application_Directory.  
 `orig-apks` collects all original APKs (from firmware 1.7)
@@ -97,19 +92,6 @@ My customizations
 - a new root feed for Trook, including an entry where you should write your Calibre server's address
 
 Just stick any of the subfolders into the root of your Nook to apply it.
-
-Nooklets
-=================
-
-`nooklets` contains some nooklets that were published by nookdevs. The provided nooklets are:
-
-- Bonsai
-- Hangman
-- Hello
-- Noodoku
-- Pluto
-
-To use them, copy them to the Nooklets folder in the root of the internal storage and install the nooklets APK.
 
 Virus detected?
 ===============
