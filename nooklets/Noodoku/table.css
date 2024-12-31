@@ -1,0 +1,47 @@
+body {
+    display: table-cell;
+    vertical-align: middle;
+    horizontal-align: middle;
+}
+
+.sudoku{
+    width:546px;
+    height:546px;
+    margin-left: 27;
+    margin-top: 27;
+}
+
+.sudoku div {
+    width:180px;
+    height:180px;
+    float:left;
+    border:1px solid #aaaaaa;
+}
+
+.sudoku span.current {
+    border:1px solid #000;
+}
+
+.sudoku span.error {
+    color: #888888;
+}
+
+.sudoku span.revealed {
+    background: #cccccc;
+}
+
+.sudoku span{
+    font-size:300%;
+    width:58px;
+    height:58px;
+    float:left; 
+    display:block;
+    border:1px solid #dddddd;
+    text-align:center;  
+    line-height:59px;
+}
+
+.status {
+    margin-left: 27;
+    margin-top: 10;
+}
