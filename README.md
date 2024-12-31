@@ -34,8 +34,8 @@ For all and especially newer nooks with serials starting with 1003 and above
 See https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation. This procedure may take quite a few tries, but in the end it worked for me.
 The needed file (`ratc.bin`) is included in this repo under `rooting/`.
 
-Softroot for older Nooks with serials starting lower than 1003.
----------------------------------------------------------------
+Softroot for older Nooks with serials starting lower than 1003
+--------------------------------------------------------------
 
 `softroot` contains the files required for the easy 1st Gen softroot method. Requires serial number beginning with a lower number than 1003. This includes the official 1.0.0 signed update from Barnes and Noble as well as the nookDevs.com (perfinion's) 2.5.1 (B&N:1.5.0) Softroot/ROM file. Also includes the instructions in PDF format from the nookDevs Wayback Machine archive.
 
