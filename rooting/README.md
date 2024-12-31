@@ -1,3 +1,5 @@
+# Introduction
+
 First, you have to root your nook. This used to be simple (check the softroot instructions), but got more and more difficult with new nook revisions.
 This rooting guide is for a nook with firmware 1.5 and a post 10030 serial number. For serial numbers starting below that, these instrutions do work, but it might be easier to follow the softroot instructions.
 The following instructions are copied from https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation (an improved and cleand up version of http://nookdevs.com/Rooting_1.5_on_any_hardware) and ajusted for acessing `adbd.html` locally.
