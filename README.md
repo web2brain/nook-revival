@@ -31,8 +31,8 @@ How to
 Step 0: rooting the Nook
 ------------------------
 
-See https://github.com/ruediste-zz/NookPDFViewer/wiki/Installation. This procedure may take quite a few tries, but in the end it worked for me.
-The needed file (`ratc.bin`) is included in this repo under `rooting/`.
+See README.md in the rooting directory. This procedure may take quite a few tries, but in the end it worked for me.
+The needed files (`adbd.html` and `ratc.bin`) are included in this repo under `rooting/`.
 
 Apps
 ====
