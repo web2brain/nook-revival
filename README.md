@@ -31,7 +31,7 @@ Rooting the Nook
 For all and especially newer nooks with serials starting with 1003 and above
 ----------------------------------------------------------------------------
 
-See README.md in the rooting directory. This procedure may take quite a few tries, but in the end it worked for me.
+See [README.md](rooting/README.md) in the rooting directory. This procedure may take quite a few tries, but in the end it worked for me.
 The needed files (`adbd.html` and `ratc.bin`) are included in this repo under `rooting/`.
 
 Softroot for older Nooks with serials starting lower than 1003
